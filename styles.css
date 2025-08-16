@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f4f0;
+  text-align: center;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  margin-left: 10px;
+}
+
+.landing {
+  background: url("https://i.imgur.com/YFmGp6T.jpg") no-repeat center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 3px black;
+}
+
+.landing h1 {
+  font-size: 3em;
+}
+
+.landing button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.products .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
